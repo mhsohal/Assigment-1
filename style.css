@@ -1,0 +1,260 @@
+/* Google Fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.middle {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Start Banner Area */
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.title-content {
+    flex-basis: 50%;
+}
+
+.portfolio-img {
+    flex-basis: 40%;
+}
+
+.title-head {
+    border-left: 4px solid;
+    border-image: linear-gradient(#7158E2, #13103a) 30;
+    padding-left: 13px;
+}
+
+.title-head h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.color-title {
+    display: block;
+    color: #7158E2;
+}
+
+.title-body p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.btn-1 {
+    display: block;
+    width: 172px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #7158E2;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+
+/* End Banner Area */
+
+
+/* Start Skill Area */
+
+.section-title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.section-title span {
+    color: #7158E2;
+}
+
+.skill-box {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 30px 20px;
+    flex-basis: 33.33%;
+    height: 350px;
+}
+
+.skill-box-2 {
+    background-color: rgba(40, 123, 255, 0.3);
+}
+
+.skill-box-3 {
+    background-color: rgba(34, 34, 34, 0.1);
+}
+
+.skill-box img {
+    width: 126px;
+    height: 126px;
+}
+
+.skill-box h3 {
+    font-size: 24px;
+}
+
+.skill-box p {
+    font-size: 16px;
+}
+
+
+/* End Skill Area */
+
+
+/* Start Develop Area */
+
+.coding-img {
+    flex-basis: 40%;
+}
+
+.coding-content {
+    flex-basis: 60%;
+}
+
+.coding-content p {
+    font-size: 18px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.section-title-2 {
+    font-size: 48px;
+}
+
+.btn-2 {
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #7158E2;
+}
+
+
+/* End Develop Area */
+
+
+/* Start Community Area */
+
+.section-title-3 {
+    font-size: 35px;
+}
+
+
+/* End Community Area */
+
+
+/* Start Projects Area */
+
+.section-title-4 {
+    font-size: 48px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.section-title-4 span {
+    color: #7158E2;
+}
+
+.project {
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #00000020;
+    border: 1px dashed #99999960;
+}
+
+.project .project-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.project h4 {
+    font-size: 26px;
+    text-align: center;
+    color: #7158E2;
+    margin: 20px 0 0;
+}
+
+
+/* End Projects Area */
+
+
+/* Start Contact Area */
+
+.contact-left,
+.contact-right {
+    flex-basis: 35%;
+}
+
+.contact-left {
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #00000020;
+    text-align: center;
+}
+
+.contact-img img {
+    height: 350px;
+    border-radius: 5px;
+}
+
+.contact-left h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.contact-left p {
+    font-size: 30px;
+}
+
+
+/* End Contact Area */
+
+
+/* Start Footer Area */
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer h4 {
+    font-size: 36px;
+}
+
+footer h4 span {
+    color: #7158e2;
+}
+
+
+/* End Footer Area */
